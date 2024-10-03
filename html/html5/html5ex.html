@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+</head>
+<body>
+    <section>
+        <form action="" method="post">
+            <label for="user_email">E-mail</label>
+            <input type="email" id="user_email" required>
+            <br><br>
+    
+        </form>
+    </section>
+
+    <section>
+        <div draggable="true" style="width: 100px; height: 100px; background-color: aquamarine;">Draggable</div>
+        <div>Google Ad</div>
+        <div>Facebook Ad</div>
+        <div>Twitter Ad</div>
+        <div>Linkedin Ad</div>
+    </section>
+
+    <section>
+        <div style="background-color: blueviolet;">
+            <canvas id="canvas_place" width="100px" height="100px"></canvas>
+            <script>
+                var canvas = document.getElementById("canvas_place");
+                var ctx = canvas.getContext('2d');
+                ctx.fillStyle='red';
+                ctx.fillRect(100, 100, 100, 100)
+            </script>
+        </div>
+    </section>
+
+    
+</body>
+</html>
